@@ -1,7 +1,14 @@
-img{
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+.icono svg{
     width: 30px;
-    margin: 5px;
+    height: 30px;
+    margin: 8px;
+    color:rgb(219, 219, 219);
 }
 .icon-img{
     margin-right: 50px;
+}
+.icono svg:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
 }
