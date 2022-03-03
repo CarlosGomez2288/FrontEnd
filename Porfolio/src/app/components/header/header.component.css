@@ -4,8 +4,9 @@
 div{
     background-color: #483b9c;
     margin: 0;
+    position: relative;
 }
 app-butt-social{
-    float:right;
+    float: right;
     margin-top:17px;
 }
