@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppLogoComponent } from './app-logo.component';
+import { SocialLogoComponent } from './social-logo.component';
 
-describe('AppLogoComponent', () => {
-  let component: AppLogoComponent;
-  let fixture: ComponentFixture<AppLogoComponent>;
+describe('SocialLogoComponent', () => {
+  let component: SocialLogoComponent;
+  let fixture: ComponentFixture<SocialLogoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AppLogoComponent ]
+      declarations: [ SocialLogoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppLogoComponent);
+    fixture = TestBed.createComponent(SocialLogoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

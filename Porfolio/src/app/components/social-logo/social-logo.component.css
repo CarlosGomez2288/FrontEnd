@@ -1,10 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#AppLogo {
+  width: 7.5rem;
+  margin-left: 3rem;
+}
+
 .icono svg {
   width: 30px;
   height: 30px;
   margin: 8px;
   color: rgb(219, 219, 219);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .icon-img {
   margin-right: 120px;
@@ -20,6 +31,7 @@ button {
   line-height: 8px;
   text-align: center;
   cursor: pointer;
+  font-weight: bold;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -28,7 +40,6 @@ button {
   border-radius: 0.5rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
 }
 
 .login {
