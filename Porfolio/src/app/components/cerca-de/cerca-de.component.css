@@ -1,0 +1,32 @@
+.row{
+    padding: 1rem;
+    width: 100%;
+    margin-left:0;
+}
+div{
+  background-color: rgb(155, 97, 202);
+  text-align: center;
+}
+#name{
+    font-weight: bold;
+}
+
+@media (min-width: 576px){
+  #perfil{
+    position:relative;
+    border-radius:50%;
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.452);
+    width:15rem;
+    top:-5rem;
+    left:-1rem;
+  }
+}
+.dato{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+p{
+  font-size:18px;
+}

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SocialLogoComponent } from './components/social-logo/social-logo.component';
+import { CercaDeComponent } from './components/cerca-de/cerca-de.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
-    SocialLogoComponent
+    SocialLogoComponent,
+    CercaDeComponent
   ],
   imports: [
     BrowserModule,
