@@ -1,32 +1,55 @@
-.row{
-    padding: 1rem;
-    width: 100%;
-    margin-left:0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+.row {
+  padding: 20px;
+  width: 100%;
+  margin: 0;
 }
-div{
+#name {
+  font-weight: bold;
+
+  margin-top: 5%;
+}
+div {
   background-color: rgb(155, 97, 202);
   text-align: center;
 }
-#name{
-    font-weight: bold;
-}
-
-@media (min-width: 576px){
-  #perfil{
-    position:relative;
-    border-radius:50%;
-    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.452);
-    width:15rem;
-    top:-5rem;
-    left:-1rem;
+@media (min-width: 576px) {
+  #perfil {
+    position: relative;
+    border-radius: 50%;
+    transform: translateY(-66%);
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
   }
 }
-.dato{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
+@media (max-width: 575px) {
+  #perfil {
+    position: absolute;
+    width: 25%;
+    left: 38%;
+    top: 25%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
+  }
+  #name {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 379px) {
+  #perfil {
+    position: absolute;
+    width: 25%;
+    left: 38%;
+    top: 39%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
+  }
+  #name {
+    padding-top: 10%;
+  }
 }
 p{
-  font-size:18px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
