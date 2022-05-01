@@ -28,7 +28,20 @@ div {
     position: absolute;
     width: 25%;
     left: 38%;
-    top: 25%;
+    top: 22%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
+  }
+  #name {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 500px) {
+  #perfil {
+    position: absolute;
+    width: 25%;
+    left: 38%;
+    top: 18%;
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
   }
@@ -41,7 +54,7 @@ div {
     position: absolute;
     width: 25%;
     left: 38%;
-    top: 39%;
+    top: 32%;
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
   }

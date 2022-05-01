@@ -1,0 +1,47 @@
+.row{
+    background-color: rgba(57, 33, 97, 0.644);
+    width: 100%;
+    margin-left:0
+}
+footer{
+    padding: 20px;
+    font: size 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    text-align:center;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.icono svg {
+    width: 20px;
+    height: 20px;
+    margin: 9px;
+    color: rgb(219, 219, 219);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+.icon-tel svg{
+      text-align:center;
+      width:15px;
+      color: rgb(0, 0, 0);
+      margin-right: 4px;
+  }
+ li.icon-tel {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    flex-direction: row;
+    margin: -3px;
+    padding: 5px
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
