@@ -3,3 +3,14 @@
     width:100%;
     margin-left:0;
 }
+body{
+    background: hsla(287, 100%, 18%, 1);
+
+background: linear-gradient(180deg, #7063c5, rgb(174, 154, 220) 84%);
+
+/* background: -moz-linear-gradient(360deg, hsla(287, 100%, 18%, 1) 23%, hsla(258, 50%, 55%, 1) 84%);
+
+background: -webkit-linear-gradient(360deg, hsla(287, 100%, 18%, 1) 23%, hsla(258, 50%, 55%, 1) 84%); */
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#47005B", endColorstr="#7452C6", GradientType=1 );
+}
