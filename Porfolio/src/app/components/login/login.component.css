@@ -1,0 +1,39 @@
+.mb-md-5 {
+    margin-bottom: 0.5rem !important;
+}
+
+.pb-5 {
+    padding-bottom: 0rem !important;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.678) !important;
+    backdrop-filter: saturate(100%) blur(25px);
+}
+
+.colo {
+    color: #6710f2;
+}
+
+.login {
+
+
+    color: rgb(219, 219, 219);
+    border-color: rgba(219, 219, 219);
+}
+
+.login:hover {
+    color: #483b9c;
+    background: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+
+button {
+    font-weight: bold;
+    background-color: #5849bed7;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
