@@ -1,0 +1,65 @@
+<!-- <div class="container" *ngIf="expLab">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreE">Nombre de la empresa</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcionE">Descripcion de la tarea</label>
+                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
+                </div>
+                <button class="btn btn-primary">
+                    Actualizar
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+ -->
+
+
+<section class="vh-50 ">
+    <div class="ccontainer py-5 cont">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-4 col-md-8 col-lg-6 col-xl-5">
+                <div class="card  bg-glass text-dark" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="mb-md-5 mt-md-4 pb-5">
+
+                            <h2 class="fw-bold mb-2 text-uppercase text-light">Editar Experiencia</h2>
+                            <p class="text-dark-50 mb-5 text-light">Ingrese los datos</p>
+
+                            <form #f="ngForm" (ngSubmit)="onUpdate()" novalidate>
+                                <div class="form-floating mb-3">
+                                    <input type="user" class="form-control form-control-lg" id="floatingInput nombreE"
+                                        name="nombreE" placeholder="Nombre de la empresa" [(ngModel)]="expLab.nombreE"
+                                        name="nombreE" required>
+                                    <label for="floatingInput nombreE">Nombre de la empresa</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control form-control-lg"
+                                        id="floatingInput descripcionE" name="descripcionE" placeholder="descripcionE"
+                                        [(ngModel)]="expLab.descripcionE" name="descripcionE" required>
+                                    <label for="floatingInput descripcionE">Descripcion</label>
+                                </div>
+                                <button class="btn btn-outline login btn-lg px-5" type="submit">
+                                    Actualizar Experiencia
+                                </button>
+                            </form>
+
+                        </div>
+
+                        <!-- <div>
+                <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+                </p>
+              </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,77 @@
+<!-- <div class="row">
+
+  <h1>Experiencia Laboral</h1>
+  <div class="col-lg-10">
+    <ul>
+      <li>
+        <h2>Trabajo 1</h2>
+        -
+        <h3>(años)</h3>
+      </li>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+        molestiae adipisci necessitatibus culpa provident. Temporibus quibusdam
+        assumenda perspiciatis atque asperiores? Fuga impedit reiciendis quidem
+        illo nulla fugiat dicta quis quaerat!
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <h2>Trabajo 2</h2>
+        -
+        <h3>(años)</h3>
+      </li>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+        molestiae adipisci necessitatibus culpa provident. Temporibus quibusdam
+        assumenda perspiciatis atque asperiores? Fuga impedit reiciendis quidem
+        illo nulla fugiat dicta quis quaerat!
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <h2>Trabajo 3</h2>
+        -
+        <h3>(años)</h3>
+      </li>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+        molestiae adipisci necessitatibus culpa provident. Temporibus quibusdam
+        assumenda perspiciatis atque asperiores? Fuga impedit reiciendis quidem
+        illo nulla fugiat dicta quis quaerat!
+      </p>
+    </ul>
+  </div>
+</div> -->
+
+<div class="row">
+  <h1>Experiencia laboral</h1>
+  
+  <div class="col-lg-10">
+    <table class="table">
+      <tbody>
+        <li *ngFor="let Experiencia of expe">
+          <td>
+            <h3>{{Experiencia.nombreE}}</h3>
+          </td>
+          <td><h5>{{Experiencia.descripcionE}}</h5></td>
+          <td *ngIf="isLogged">
+            <button class="btn btn-light btn-sm" routerLink="/editexp/{{Experiencia.id}}">
+              <i class="bi bi-pencil-fill"></i> Editar</button>
+          </td>
+          <td *ngIf="isLogged">
+            <button class="btn btn-danger btn-sm " (click)="delete(Experiencia.id)">
+              <i class="bi bi-trash"></i> Borrar</button>
+          </td>
+        </li>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="col lg 1"></div>
+  <div class="col-lg-2">
+    <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+      Nueva Experiencia
+    </button>
+  </div>  
+</div>

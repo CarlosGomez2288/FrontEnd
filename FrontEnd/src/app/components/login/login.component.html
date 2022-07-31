@@ -1,0 +1,43 @@
+<section class="vh-50 ">
+  <div class="ccontainer py-5 cont">
+    <div class="row d-flex justify-content-center align-items-center ">
+      <div class="col-4 col-md-8 col-lg-6 col-xl-5">
+        <div class="card  bg-glass text-dark" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+              <p class="text-dark-50 mb-5">Por favor, ingresar usuario y contraseña</p>
+
+              <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+                <div class="form-floating mb-3">
+                  <input type="user" class="form-control form-control-lg" id="floatingInput nombreUsuario"
+                    name="nombreUsuario" placeholder="Usuario" [(ngModel)]="nombreUsuario" name="nombreUsuario"
+                    required>
+                  <label for="floatingInput nombreUsuario">Ingresar Usuario</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control form-control-lg" id="floatingInput password"
+                    name="password" placeholder="password" [(ngModel)]="password" name="password" required>
+                  <label for="floatingInput password">Ingresar Contraseña</label>
+                </div>
+
+                <button class="btn btn-outline login btn-lg px-5" type="submit">
+                  Ingresar
+                </button>
+              </form>
+
+            </div>
+
+            <!-- <div>
+              <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+              </p>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

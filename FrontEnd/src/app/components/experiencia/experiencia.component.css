@@ -1,0 +1,12 @@
+.row {
+  padding: 20px;
+  margin-left:0
+}
+
+
+td{
+  border-bottom-width: 0px;
+}
+li{
+  list-style: none;
+}

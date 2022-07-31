@@ -1,0 +1,45 @@
+
+<section class="vh-50 ">
+    <div class="ccontainer py-5 cont">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-4 col-md-8 col-lg-6 col-xl-5">
+                <div class="card  bg-glass text-dark" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="mb-md-5 mt-md-4 pb-5">
+
+                            <h2 class="fw-bold mb-2 text-uppercase text-light">Agregar Educación </h2>
+                            <p class="text-dark-50 mb-5 text-light">Ingrese los datos</p>
+
+                            <form #f="ngForm" (ngSubmit)="onCreate()" novalidate>
+                                <div class="form-floating mb-3">
+                                    <input type="user" class="form-control form-control-lg" id="floatingInput nombreE"
+                                        name="nombreE" placeholder="Nombre de la Institucion" [(ngModel)]="nombreE"
+                                        name="nombreE" required>
+                                    <label for="floatingInput nombreE">Nombre de la Institucion</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control form-control-lg"
+                                        id="floatingInput descripcionE" name="descripcionE"
+                                        placeholder="Descripcion de sus estudios" [(ngModel)]="descripcionE"
+                                        name="descripcionE" required>
+                                    <label for="floatingInput descripcionE">Descripcion de sus estudios</label>
+                                </div>
+                                <button class="btn btn-outline login btn-lg px-5" type="submit">
+                                    Agregar Educación 
+                                </button>
+                            </form>
+
+                        </div>
+
+                        <!-- <div>
+                    <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+                    </p>
+                  </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
