@@ -16,7 +16,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component'; 
-import { interceptProvider } from './service/iter-service';
+
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -55,7 +55,7 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     FormsModule
   ],
   providers: [
-    interceptProvider
+    
   ],
   bootstrap: [AppComponent]
 })
